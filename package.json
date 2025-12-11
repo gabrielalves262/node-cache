@@ -1,12 +1,12 @@
 {
   "name": "@devgl/node-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple in-memory cache for Node.js applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [],
   "author": "Gabriel Campos <gabrielalves262@hotmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "repository": {
     "type": "git",
