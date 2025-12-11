@@ -10,8 +10,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build",
-    "prepack": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^25.0.0",
