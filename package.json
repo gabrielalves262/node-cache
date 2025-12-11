@@ -1,0 +1,20 @@
+{
+  "name": "@devgl/node-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "author": "DevGL <devgl@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "typescript": "^5.9.3"
+  }
+}
